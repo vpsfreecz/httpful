@@ -1,6 +1,8 @@
 # Httpful
 
-[![Build Status](https://secure.travis-ci.org/nategood/httpful.png?branch=master)](http://travis-ci.org/nategood/httpful) [![Total Downloads](https://poser.pugx.org/nategood/httpful/downloads.png)](https://packagist.org/packages/nategood/httpful)
+This is a fork of [nategood/httpful](https://github.com/nategood/httpful) to support
+newer PHP versions for use in [HaveAPI](https://github.com/vpsfreecz/haveapi).
+Maintenance only.
 
 Httpful is a simple Http Client library for PHP 7.2+.  There is an emphasis of readability, simplicity, and flexibility – basically provide the features and flexibility to get the job done and make those features really easy to use.
 
@@ -36,11 +38,11 @@ echo "{$response->body->name} joined GitHub on " .
 
 ## Composer
 
-Httpful is PSR-0 compliant and can be installed using [composer](http://getcomposer.org/).  Simply add `nategood/httpful` to your composer.json file.  _Composer is the sane alternative to PEAR.  It is excellent for managing dependencies in larger projects_.
+Httpful is PSR-0 compliant and can be installed using [composer](http://getcomposer.org/).  Simply add `vpsfreecz/httpful` to your composer.json file.  _Composer is the sane alternative to PEAR.  It is excellent for managing dependencies in larger projects_.
 
     {
         "require": {
-            "nategood/httpful": "*"
+            "vpsfreecz/httpful": "*"
         }
     }
 

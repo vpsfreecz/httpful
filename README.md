@@ -69,6 +69,10 @@ Httpful highly encourages sending in pull requests.  When submitting a pull requ
 
 # Changelog
 
+## 0.4.0
+
+ - Compatibility with PHP 8.1
+
 ## 0.3.2
 
  - REFACTOR [PR #276](https://github.com/nategood/httpful/pull/276) Add properly subclassed, more descriptive Exceptions for JSON parse errors

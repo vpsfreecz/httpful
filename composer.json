@@ -4,7 +4,7 @@
     "homepage": "http://github.com/vpsfreecz/httpful",
     "license": "MIT",
     "keywords": ["http", "curl", "rest", "restful", "api", "requests"],
-    "version": "0.3.2",
+    "version": "0.4.0",
     "authors": [
         {
             "name": "Nate Good",
